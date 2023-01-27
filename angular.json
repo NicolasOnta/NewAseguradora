@@ -26,7 +26,7 @@
               "src/_redirects",
               {
                 "glob": "_redirects",
-                "input":"src",
+                "input": "src",
                 "output": "/"
               }
             ],
@@ -96,6 +96,14 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/aseguradora.web",
+            "netlifyToken": "sj9TqZZBaV9iWX4lEqx7Ivm226QIzyEbDZKHwZXA7_A",
+            "siteId": ""
           }
         }
       }
