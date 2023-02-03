@@ -1,0 +1,1 @@
+export const URI: string = 'http://insertnickname-001-site1.btempurl.com/'

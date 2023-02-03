@@ -22,13 +22,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/_redirects",
-              {
-                "glob": "_redirects",
-                "input": "src",
-                "output": "/"
-              }
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -96,14 +90,6 @@
               "src/styles.css"
             ],
             "scripts": []
-          }
-        },
-        "deploy": {
-          "builder": "@netlify-builder/deploy:deploy",
-          "options": {
-            "outputPath": "dist/aseguradora.web",
-            "netlifyToken": "sj9TqZZBaV9iWX4lEqx7Ivm226QIzyEbDZKHwZXA7_A",
-            "siteId": ""
           }
         }
       }
